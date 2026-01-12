@@ -1,5 +1,7 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) MongoDB Setup and Installation Guide
 
+**Total Lesson Time: 60 minutes (1 hour)**
+
 ## Learning Objectives
 
 By the end of this installation guide, you will be able to:
@@ -15,7 +17,7 @@ By the end of this installation guide, you will be able to:
 - Perform basic database operations using MongoDB Compass
 - Verify that the database setup and connections are working correctly
 
-## Introduction
+## Introduction (5 minutes)
 Welcome to the MongoDB Atlas Installation Guide. This guide will walk you through the process of setting up a MongoDB Atlas account, which is used to create and manage non-relational (NoSQL) databases in the cloud. MongoDB Atlas provides a secure, scalable, and easy-to-use platform for hosting MongoDB databases.
 
 This guide is organized into clear, step-by-step sections. You will begin by creating an account, followed by deploying a database cluster, configuring basic security settings, and finally obtaining the connection string needed to connect your applications to the database. Each step includes detailed instructions and screenshots to ensure a smooth and straightforward setup experience.
@@ -24,7 +26,7 @@ By the end of this installation guide, you will have a fully configured MongoDB 
 
 Let's get started!
 
-## Create an Atlas account
+## Create an Atlas account (10 minutes)
 
 [MongoDB Atlas](https://www.mongodb.com/atlas/database) is MongoDB’s official cloud platform and the most popular choice for hosting MongoDB databases. We’ll use it throughout the course to host all of our MongoDB databases.
 
@@ -74,7 +76,7 @@ Proceed to the **Welcome to Atlas** section below.
 
 ![The MongoDB Atlas Welcome to Atlas page. The fields have been prefilled with data, matching the SEB use case, but this information is not important](./assets/marketing.png)
 
-## Deploy your database
+## Deploy your database (15 minutes)
 
 It's time to set up the cluster! Clusters are MongoDB's way of collecting your databases all in one place.
 
@@ -87,7 +89,7 @@ It's time to set up the cluster! Clusters are MongoDB's way of collecting your d
 
 ![The MongoDB Atlas Deploy your database page.](./assets/aws.png)
 
-## Security quickstart
+## Security quickstart (15 minutes)
 
 Next, you will be taken to a ***Security Quickstart*** page. There will be a message at the bottom left stating that the database cluster is being provisioned and the approximate time it will take to complete.
 
@@ -144,7 +146,7 @@ Select the **Finish and Close** button and then the **Go to Overview** button in
 
 ![The completed second step of the MongoDB Atlas Security Quickstart page.](./assets/security-quickstart-2-complete.png)
 
-## Obtain the Connection String
+## Obtain the Connection String (10 minutes)
 
 A connection string is a single line of text that contains all the information an application needs to connect to a database securely. It defines where the database is located and provides the required credentials, such as the username and password. Without this connection string, the application would not be able to establish communication with the database or perform any data operations.
 
@@ -162,7 +164,7 @@ A connection string is a single line of text that contains all the information a
 
 ![The grand prize! A first-class one-way ticket to Albuquerque. No actually, a MongoDB Atlas connection string. Sorry for getting your hopes up.](./assets/connection-string.png)
 
-## Use the connection string in your app
+## Use the connection string in your app (10 minutes)
 
 > ❗️ Please do not attempt to use any of the connection strings below; they will not function in your applications.
 
@@ -194,7 +196,7 @@ We're almost done, but you'll need to make a couple of changes in your connectio
 
 > ❗️ **If you do not have an application built yet, paste your connection string somewhere safe on your computer for future use.**
 
-## Reusing the connection string for multiple projects
+## Reusing the connection string for multiple projects (5 minutes)
 
 The database connection string you've created can be used for various projects. Remember to securely store this string for easy access in the future.
 
@@ -220,7 +222,7 @@ You can use Atlas to view and edit data by clicking on the **Browse Collections*
 
 ---
 
-# Downloading, Installing, and Connecting MongoDB Compass
+# Downloading, Installing, and Connecting MongoDB Compass (15 minutes)
 
 MongoDB Compass is a graphical tool that allows you to view and manage your MongoDB data using your Atlas connection string. Follow the steps below based on your operating system.
 
