@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) MongoDB Setup and Installation Guide
 
-**Total Lesson Time: 60 minutes (1 hour)**
+**Total Lesson Time: 85 minutes (1 hour 25 minutes)**
 
 ## Learning Objectives
 
